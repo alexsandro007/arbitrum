@@ -1,0 +1,179 @@
+.about {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.sectionTitle {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  gap: 85px;
+  align-items: flex-start;
+}
+
+.imageWrapper {
+  flex: 1;
+}
+
+.truckImage {
+  width: 100%;
+  height: 518px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.textWrapper {
+  min-height: 518px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.companyName {
+  font-size: 80px;
+  font-weight: 400;
+  color: #CFD641;
+  text-transform: uppercase;
+  line-height: 0.7;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.mission {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.missionTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+@media (max-width: 1023px) {
+  .about {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .sectionTitle {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .imageWrapper {
+    flex: none;
+    width: 100%;
+  }
+
+  .truckImage {
+    height: 400px;
+  }
+
+  .textWrapper {
+    min-height: auto;
+  }
+
+  .companyName {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .mission {
+    font-size: 15px;
+  }
+
+  .missionTitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 50px 0;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+
+  .content {
+    gap: 32px;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+
+  .truckImage {
+    height: 300px;
+    min-width: 300px;
+  }
+
+  .textWrapper {
+    min-height: auto;
+  }
+
+  .companyInfo {
+    gap: 16px;
+  }
+
+  .companyName {
+    font-size: 54px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  .mission {
+    font-size: 14px;
+  }
+
+  .missionTitle {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

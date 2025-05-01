@@ -1,0 +1,266 @@
+{
+  "header": {
+    "logo": "ARBITRUM",
+    "about": "About Us",
+    "services": "Services",
+    "contacts": "Contacts",
+    "phone": "+7 071 181-86-70",
+    "email": "nikita@arbitrum.com",
+    "requestQuote": "Request a quote"
+  },
+  "hero": {
+    "title": "WHERE OTHERS SEARCH FOR A ROUTE — WE ALREADY DELIVER",
+    "button": "Request a quote"
+  },
+  "about": {
+    "title": "About Us",
+    "companyName": "ARBITRUM",
+    "description": "a logistics company with its own fleet, delivering cargo worldwide for over 7 years.</br>Our team of experts combines experience, bold solutions, and a strong corporate culture. The accumulated experience and professionalism of our employees have become the foundation on which we built a company guided by the principles of honesty, flexibility, and transparency.",
+    "missionTitle": "Our Mission:",
+    "mission": "to be a company that provides innovative, reliable, and efficient services to businesses worldwide."
+  },
+  "advantages": {
+    "title": "ADVANTAGES",
+    "items": [
+      {
+        "title": "Price",
+        "description": "Competitive pricing for cargo transportation"
+      },
+      {
+        "title": "Reliability",
+        "description": "Full control of transportation with no cargo losses"
+      },
+      {
+        "title": "Speed",
+        "description": "Fast cargo delivery to any destination worldwide"
+      },
+      {
+        "title": "Service",
+        "description": "Available for clients 24/7"
+      }
+    ]
+  },
+  "services": {
+    "title": "SERVICES",
+    "button": "Request a quote",
+    "items": [
+      "Automobile Cargo Transportation",
+      "Railway Cargo Transportation",
+      "Aviation Cargo Transportation",
+      "Maritime Cargo Transportation",
+      "Transportation of Oversized and Heavy Cargo",
+      "Multimodal Cargo Transportation",
+      "Consolidated Cargo Transportation",
+      "Cargo Insurance",
+      "Project Logistics"
+    ]
+  },
+  "slogan": {
+    "line1": "We are genuinely invested in the success of your business.",
+    "line2": "We are Arbitrum."
+  },
+  "calculateCost": {
+    "title": "CALCULATE COST",
+    "from": "From",
+    "fromPlaceholder": "city of departure",
+    "errorFrom": "Enter the departure point",
+    "errorFromLength": "Departure point must be at least 2 characters",
+    "errorFromInvalid": "Departure point can only contain letters, spaces, and hyphens",
+    "to": "To",
+    "toPlaceholder": "destination city",
+    "errorTo": "Enter the destination point",
+    "errorToLength": "Destination point must be at least 2 characters",
+    "errorToInvalid": "Destination point can only contain letters, spaces, and hyphens",
+    "cargoType": "Cargo Type",
+    "cargoTypePlaceholder": "e.g., flowers",
+    "errorCargoType": "Enter the cargo type",
+    "errorCargoTypeLength": "Cargo type must be at least 2 characters",
+    "errorCargoTypeInvalid": "Cargo type can only contain letters, spaces, and hyphens",
+    "weight": "Weight (kg)",
+    "weightPlaceholder": "e.g., 10000",
+    "errorWeightRequired": "Enter the cargo weight",
+    "errorWeightInvalid": "Weight must be a positive number",
+    "errorWeightDecimals": "Weight can have up to 3 decimal places",
+    "name": "Name",
+    "namePlaceholder": "your name",
+    "errorName": "Enter your name",
+    "errorNameLength": "Name must be at least 2 characters",
+    "errorNameInvalid": "Name can only contain letters, spaces, and hyphens",
+    "company": "Company",
+    "companyPlaceholder": "company name",
+    "errorCompany": "Enter the company name",
+    "errorCompanyLength": "Company name must be at least 2 characters",
+    "errorCompanyInvalid": "Company name can only contain letters, numbers, spaces, hyphens, and dots",
+    "email": "E-mail",
+    "emailPlaceholder": "your e-mail",
+    "errorEmailRequired": "Enter your email",
+    "errorEmailInvalid": "Invalid email format",
+    "errorEmailLength": "Email cannot exceed 100 characters",
+    "phone": "Phone Number",
+    "phonePlaceholder": "your phone number",
+    "errorPhoneRequired": "Enter your phone number",
+    "errorPhoneInvalid": "Invalid phone number format (e.g., +375331234567 or +375 29 123 45 67)",
+    "notes": "Notes on Cargo Transportation",
+    "notesPlaceholder": "number of pallets, temp. req., etc.",
+    "errorNotesLength": "Notes cannot exceed 500 characters",
+    "errorNotesInvalid": "Notes can only contain letters, numbers, spaces, and basic punctuation",
+    "consent": "I confirm my consent to the processing of personal data in accordance with the:Privacy Policy",
+    "consentRequired": "You must agree to the privacy policy",
+    "submit": "Submit"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "phoneLabel": "Phone:",
+    "phone1": "+7 (771) 161-86-70",
+    "phone1Label": "customer service department",
+    "emailLabel": "E-mail:",
+    "email": "nikita@arbitrum.com",
+    "whatsappLabel": "WhatsApp:",
+    "whatsapp": "+7 (771) 161-86-70",
+    "telegramLabel": "Telegram:",
+    "telegram": "+7 (771) 161-86-70",
+    "hoursLabel": "Working Hours:",
+    "hours": "Mon - Fri: 9:00 AM to 6:00 PM",
+    "addressLabel": "Address:",
+    "address": "Republic of Belarus, Minsk, Masherova St. 26, Office 6",
+    "button": "Request a quote",
+    "buttonMapMobile": "On the map"
+  },
+  "footer": {
+    "services": {
+      "title": "SERVICES",
+      "item1": "Automobile Cargo Transportation",
+      "item2": "Railway Cargo Transportation",
+      "item3": "Aviation Cargo Transportation",
+      "item4": "Maritime Cargo Transportation",
+      "item5": "Project Logistics",
+      "item6": "Transportation of Oversized and Heavy Cargo",
+      "item7": "Multimodal Cargo Transportation",
+      "item8": "Consolidated Cargo Transportation",
+      "item9": "Cargo Insurance"
+    },
+    "contacts": {
+      "title": "CONTACTS",
+      "phoneLabel": "Phone:",
+      "phone": "+7 (771) 161-86-70",
+      "phone1Label": "customer service department",
+      "emailLabel": "E-mail:",
+      "email": "nikita@arbitrum.com",
+      "whatsappLabel": "WhatsApp:",
+      "whatsapp": "+7 (771) 161-86-70",
+      "telegramLabel": "Telegram:",
+      "telegram": "+7 (771) 161-86-70",
+      "addressLabel": "Address:",
+      "address": "Republic of Belarus, Minsk, Masherova St. 26, Office 6"
+    },
+    "logo": "ARBITRUM"
+  },
+  "privacyPolicy": {
+    "title": "PERSONAL DATA PROCESSING POLICY",
+    "backButton": "Back",
+    "section0": {
+      "title": "This Personal Data Processing Policy (hereinafter referred to as the 'Policy') applies to all information that the website located at the domain name www.nettox.net may obtain about the User during the use of the website."
+    },
+    "section1": {
+      "title": "1. DEFINITION OF TERMS",
+      "text1": "1.1. The following terms are used in this Policy:",
+      "text2": "1.1.1. The administration of the website www.nettox.net (hereinafter referred to as the 'Site Administration') – authorized employees responsible for managing the website, acting on behalf of ArbitrumLogistics LLC, who organize and/or carry out the processing of personal data, as well as determine the purposes of personal data processing, the composition of personal data to be processed, and the actions (operations) performed with personal data.",
+      "text3": "1.1.2. 'Personal Data' – any information relating to a directly or indirectly identified or identifiable natural person (data subject).",
+      "text4": "1.1.3. 'Processing of Personal Data' – any action (operation) or set of actions (operations) performed with personal data, whether or not by automated means, including collection, recording, systematization, accumulation, storage, updating (modification), retrieval, use, transfer (dissemination, provision, access), anonymization, blocking, deletion, or destruction of personal data.",
+      "text5": "1.1.4. 'Confidentiality of Personal Data' – a mandatory requirement for the Operator or any other person who has access to personal data to prevent its dissemination without the consent of the data subject or other legal grounds.",
+      "text6": "1.1.5. 'Website User (hereinafter referred to as the User)' – a person who has access to the website via the Internet and uses the website.",
+      "text7": "1.1.6. 'Cookies' – a small piece of data sent by a web server and stored on the user’s computer (or mobile device), which the web client or web browser sends to the web server in an HTTP request each time it attempts to open a page of the respective website.",
+      "text8": "1.1.7. 'IP Address' – a unique network address of a node in a computer network built on the IP protocol."
+    },
+    "section2": {
+      "title": "2. GENERAL PROVISIONS",
+      "text1": "2.1. By using the website, the User agrees to this Policy and the terms of processing the User’s personal data.",
+      "text2": "2.2. If the User does not agree with the terms of the Policy, the User must stop using the website.",
+      "text3": "2.3. This Policy applies only to the website. The website does not control and is not responsible for third-party websites that the User may access via links available on the website.",
+      "text4": "2.4. The Site Administration does not verify the accuracy of the personal data provided by the User."
+    },
+    "section3": {
+      "title": "3. SUBJECT of the Personal Data Processing Policy",
+      "text1": "3.1. This Policy establishes the obligations of the Site Administration regarding the non-disclosure and protection of the confidentiality of personal data that the User provides at the request of the Site Administration when registering on the website.",
+      "text2": "3.2. Personal data permitted for processing under this Policy is provided by the User by filling out the contact form on the website www.nettox.net and includes the following information:",
+      "text3": "3.2.1. Last name, first name of the User;",
+      "text4": "3.2.2. User’s contact phone number;",
+      "text5": "3.2.3. Email address (e-mail);",
+      "text6": "3.3. www.nettox.net protects data that is automatically transmitted during the viewing of advertising blocks and when visiting pages with installed statistical system scripts ('pixels'):",
+      "text6_1": "IP address;",
+      "text6_2": "Information from cookies;",
+      "text6_3": "Information about the browser (or other program that accesses the display of advertisements);",
+      "text6_4": "Access time;",
+      "text6_5": "Address of the page where the advertising block is located;",
+      "text6_6": "Referrer (address of the previous page).",
+      "text7": "3.3.1. Disabling cookies may result in the inability to access parts of the website www.nettox.net that require authorization.",
+      "text8": "3.3.2. www.nettox.net collects statistics about the IP addresses of its visitors. This information is used to identify and resolve technical issues.",
+      "text9": "3.4. Any other personal information not specified above (browsers used, operating systems, etc.) is subject to secure storage and non-dissemination, except as provided in clauses 5.2. and 5.3. of this Policy."
+    },
+    "section4": {
+      "title": "4. Purposes of Collecting User’s Personal Information",
+      "text1": "4.1. The Site Administration of www.nettox.net may use the User’s personal data for the following purposes:",
+      "text2": "4.1.1. Identification of the User who has filled out the contact form on the website www.nettox.net.",
+      "text3": "4.1.2. Providing the User with access to personalized resources of the website www.nettox.net.",
+      "text4": "4.1.3. Establishing communication with the User, including sending notifications, requests regarding the use of the website www.nettox.net, provision of services, and processing of requests and applications from the User.",
+      "text5": "4.1.4. Determining the User’s location to ensure security and prevent fraud.",
+      "text6": "4.1.5. Confirming the accuracy and completeness of the personal data provided by the User.",
+      "text7": "4.1.6. Providing the User with effective customer and technical support in case of issues related to the use of the website www.nettox.net.",
+      "text8": "4.1.7. Providing the User, with their consent, with product updates, special offers, pricing information, newsletters, and other information on behalf of www.nettox.net or its partners.",
+      "text9": "4.1.8. Conducting advertising activities with the User’s consent.",
+      "text10": "4.1.9. Providing the User with access to websites or services of www.nettox.net partners to obtain products, updates, and services.",
+      "text11": "4.1.10. Reviewing resumes (applications, letters, etc.) of candidates for vacant positions for the purpose of concluding an employment contract."
+    },
+    "section5": {
+      "title": "5. Methods and Terms of Processing Personal Information",
+      "text1": "5.1. The processing of the User’s personal data is carried out without time restrictions, by any lawful means, including in personal data information systems using automation tools or without such tools.",
+      "text2": "5.2. The User agrees that the Site Administration may transfer personal data to third parties, such as courier services, postal organizations, third parties engaged to provide services to the User, and telecommunications operators, solely for the purpose of fulfilling the User’s order placed on the website www.nettox.net.",
+      "text3": "5.3. The User’s personal data may be transferred to authorized state authorities of the Republic of Belarus only on the grounds and in the manner established by the legislation of the Republic of Belarus.",
+      "text4": "5.4. In case of loss or disclosure of personal data, the Site Administration informs the User about the loss or disclosure of personal data.",
+      "text5": "5.5. The Site Administration takes necessary organizational and technical measures to protect the User’s personal information from unauthorized or accidental access, destruction, alteration, blocking, copying, distribution, as well as from other unlawful actions by third parties.",
+      "text6": "5.6. The Site Administration, together with the User, takes all necessary measures to prevent losses or other negative consequences caused by the loss or disclosure of the User’s personal data."
+    },
+    "section6": {
+      "title": "6. COOKIE PROCESSING POLICY",
+      "text1": "6.1. The purpose of processing cookies is to ensure the convenience of website Users and improve the quality of its functionality.",
+      "text2": "6.2. The Site Administration does not transfer cookies to third parties or use them to identify personal data subjects.",
+      "text3": "6.3. The following types of cookies are processed on the website www.nettox.net:",
+      "text4": "6.3.1. Functional – allow the User to navigate the website and fully utilize its features;",
+      "text5": "6.3.2. Analytical – necessary for statistical purposes, helping to improve the website’s performance and make it more user-friendly.",
+      "text6": "6.4. Users can accept or reject the collection of all or some cookies. However, the proper functioning of the website is only possible if functional cookies are used."
+    },
+    "section7": {
+      "title": "7. OBLIGATIONS OF THE PARTIES",
+      "text1": "7.1. The User is obliged to:",
+      "text2": "7.1.1. Provide information about personal data necessary to use the website www.nettox.net.",
+      "text3": "7.1.2. Update or supplement the provided information about personal data if this information changes.",
+      "text4": "7.2. The Site Administration is obliged to:",
+      "text5": "7.2.1. Use the obtained information solely for the purposes specified in clause 4 of this Policy.",
+      "text6": "7.2.2. Ensure the confidentiality of the information, not disclose it without the prior written consent of the User, and not sell, exchange, publish, or otherwise disclose the User’s personal data, except as provided in clauses 5.2. and 5.3. of this Policy.",
+      "text7": "7.2.3. Take precautionary measures to protect the confidentiality of the User’s personal data in accordance with the procedures typically used to protect such information in existing business practices.",
+      "text8": "7.2.4. Block personal data related to the respective User upon request or inquiry from the User, their legal representative, or an authorized body for the protection of personal data subjects’ rights during the verification period, in case of identification of inaccurate personal data or unlawful actions."
+    },
+    "section8": {
+      "title": "8. RESPONSIBILITY OF THE PARTIES",
+      "text1": "8.1. The Site Administration, which fails to fulfill its obligations, is liable for losses incurred by the User due to the unlawful use of personal data, in accordance with the legislation of the Republic of Belarus, except as provided in clauses 5.2., 5.3., and 8.2. of this Policy.",
+      "text2": "8.2. In case of loss or disclosure of Confidential Information, the Site Administration is not liable if this confidential information:",
+      "text3": "8.2.1. Became public domain prior to its loss or disclosure.",
+      "text4": "8.2.2. Was received from a third party prior to its receipt by the Site Administration.",
+      "text5": "8.2.3. Was disclosed with the User’s consent."
+    },
+    "section9": {
+      "title": "9. DISPUTE RESOLUTION",
+      "text1": "9.1. Before filing a lawsuit regarding disputes arising from the relationship between the User of the website www.nettox.net and the Site Administration, it is mandatory to submit a claim (a written proposal for voluntary dispute resolution).",
+      "text2": "9.2. The recipient of the claim, within 30 calendar days from the date of receipt of the claim, shall notify the claimant in writing of the results of the claim’s consideration.",
+      "text3": "9.3. If an agreement is not reached, the dispute will be referred to a judicial body in accordance with the current legislation of the Republic of Belarus.",
+      "text4": "9.4. The current legislation of the Republic of Belarus applies to this Policy and the relationship between the User and the Site Administration."
+    },
+    "section10": {
+      "title": "10. ADDITIONAL CONDITIONS",
+      "text1": "10.1. The Site Administration has the right to make changes to this Policy without the User’s consent.",
+      "text2": "10.2. The new Privacy Policy takes effect from the moment it is posted on the website www.nettox.net, unless otherwise provided by the new version of the Policy.",
+      "text3": "10.3. All suggestions or questions regarding this Policy should be directed to the email address info@nettox.net.",
+      "text4": "10.4. The current Policy is posted on the page at www.nettox.net."
+    }
+  }
+}

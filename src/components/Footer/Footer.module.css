@@ -1,0 +1,314 @@
+.footer {
+  background-color: #1A1A1A;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 1328px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 113px;
+  padding: 0 60px;
+}
+
+.column {
+  flex: 1;
+}
+
+.logoColumn {
+  flex: 1;
+}
+
+.columnTitle {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  font-size: 16px;
+  font-weight: 450;
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+
+.contactItem {
+  margin-bottom: 8px;
+}
+
+.contactLabel {
+  font-size: 16px;
+  font-weight: 450;
+  margin-bottom: 2px;
+  line-height: 1.6;
+}
+
+.contactItem h3 {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.contactItem p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.marker_item {
+  margin-top: 16px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  color: #CFD641;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  cursor: pointer;
+}
+
+.logoImage {
+  width: 39px;
+}
+
+.logoText {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1328px) {
+  .container {
+    padding: 0 50px;
+    gap: 80px;
+  }
+
+  .columnTitle {
+    font-size: 15px;
+  }
+
+  .list li {
+    font-size: 15px;
+  }
+
+  .contactLabel {
+    font-size: 15px;
+  }
+
+  .contactItem h3 {
+    font-size: 15px;
+  }
+
+  .contactItem p {
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .logoImage {
+    width: 36px;
+  }
+
+  .logoText {
+    font-size: 18px;
+  }
+
+  .logo {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding: 0 40px;
+    gap: 60px;
+  }
+
+  .columnTitle {
+    font-size: 14px;
+  }
+
+  .list li {
+    font-size: 14px;
+  }
+
+  .contactLabel {
+    font-size: 14px;
+  }
+
+  .contactItem h3 {
+    font-size: 14px;
+  }
+
+  .contactItem p {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logoImage {
+    width: 34px;
+  }
+
+  .logoText {
+    font-size: 16px;
+  }
+
+  .logo {
+    gap: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logoColumn {
+    order: -1;
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .columnTitle {
+    font-size: 13px;
+  }
+
+  .list li {
+    font-size: 13px;
+  }
+
+  .contactLabel {
+    font-size: 13px;
+  }
+
+  .contactItem h3 {
+    font-size: 13px;
+    justify-content: center;
+  }
+
+  .contactItem p {
+    font-size: 13px;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .logoImage {
+    width: 32px;
+  }
+
+  .logoText {
+    font-size: 14px;
+  }
+
+  .logo {
+    gap: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .container {
+    padding: 0 24px;
+    gap: 32px;
+  }
+
+  .column {
+    text-align: start;
+  }
+
+  .logoColumn {
+    text-align: start;
+  }
+
+  .logo {
+    justify-content: start;
+    margin-left: 0;
+  }
+
+  .columnTitle {
+    font-size: 16px;
+  }
+
+  .list li {
+    font-size: 16px;
+  }
+
+  .contactLabel {
+    font-size: 16px;
+  }
+
+  .contactItem h3 {
+    font-size: 16px;
+    justify-content: start;
+  }
+
+  .contactItem p {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .logoImage {
+    width: 38px;
+  }
+
+  .logoText {
+    font-size: 18px;
+  }
+
+  .logo {
+    gap: 17px;
+  }
+}

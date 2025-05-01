@@ -1,0 +1,64 @@
+.slogan {
+  background-color: #1A1A1A;
+  padding: 145px 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 60px; 
+  font-size: 40px;
+}
+
+.line1 {
+  font-weight: 500;
+}
+
+.line2 {
+  font-weight: 500;
+  color: #CFD641;
+}
+
+@media (max-width: 1210px) {
+  .slogan {
+    padding: 120px 0; 
+  }
+
+  .container {
+    padding: 0 50px; 
+    font-size: 36px; 
+  }
+}
+
+@media (max-width: 1023px) {
+  .slogan {
+    padding: 100px 0; 
+  }
+
+  .container {
+    padding: 0 40px;
+    font-size: 32px; 
+  }
+}
+
+@media (max-width: 767px) {
+  .slogan {
+    padding: 80px 0; 
+  }
+
+  .container {
+    padding: 0 24px; 
+    font-size: 24px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .slogan {
+    padding: 50px 0; 
+  }
+
+  .container {
+    font-size: 20px;
+  }
+}

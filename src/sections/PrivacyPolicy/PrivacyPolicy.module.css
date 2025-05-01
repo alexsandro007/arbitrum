@@ -1,0 +1,196 @@
+.privacyPolicy {
+  background-color: #fff;
+  padding: 120px 0 100px;
+}
+
+.container {
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: #1A1A1A;
+  text-transform: uppercase;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 32px;
+  transition: all 0.3s ease;
+}
+
+.arrow {
+  font-size: 25px;
+  margin-right: 16px;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.backText {
+  line-height: 1;
+}
+
+.link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.content {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 42px 0 0;
+  color: #1A1A1A;
+}
+
+@media (max-width: 1328px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+
+  .content {
+    font-size: 15px;
+  }
+
+  .link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .privacyPolicy {
+    padding: 120px 0 100px;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .arrow {
+    margin-right: 12px;
+    margin-bottom: 3px;
+  }
+
+  .sectionTitle {
+    font-size: 16px;
+  }
+
+  .content {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .privacyPolicy {
+    padding: 90px 0 50px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .backButton {
+    margin-bottom: 24px;
+  }
+
+  .arrow {
+    margin-right: 6px;
+    margin-bottom: 3px;
+  }
+
+  .sectionTitle {
+    font-size: 14px;
+    margin: 24px 0 12px;
+  }
+
+  .content {
+    font-size: 13px;
+  }
+
+  .content p {
+    margin-bottom: 12px;
+  }
+
+  .link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .privacyPolicy {
+    padding: 90px 0 30px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .backButton {
+    margin-bottom: 20px;
+  }
+
+  .arrow {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .sectionTitle {
+    font-size: 13px;
+    margin: 20px 0 10px;
+  }
+
+  .content {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+}

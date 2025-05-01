@@ -1,0 +1,479 @@
+.header {
+  background-color: #1A1A1A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header_container {
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ---------- Header left ---------- */
+
+.header_left {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 79px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logoImage {
+  margin-right: 17px;
+}
+
+.logoText {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.verticalLines {
+  display: flex;
+  gap: 11.2px;
+  height: 100%;
+}
+
+.verticalLine {
+  height: 100%;
+  background-color: #CFD641;
+  width: var(--line-width, 2px);
+}
+
+.nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #CFD641;
+}
+
+/* ---------- Header right ---------- */
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.line {
+  height: 18px;
+  width: 1px;
+  background-color: #CFD641;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contactItem .icon {
+  font-size: 24px;
+  color: #CFD641;
+}
+
+.contactLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+  color: #CFD641;
+}
+
+.contactIconOnly {
+  display: inline-block;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.languageOption {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.languageOption:hover {
+  color: #CFD641;
+}
+
+.languageOption_active {
+  color: #CFD641;
+  text-decoration: underline;
+}
+
+/* ---------- Burger Menu ---------- */
+
+.burgerMenu {
+  display: none;
+}
+
+.burgerMenuIcon {
+  position: relative;
+  width: 18px;
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.burgerLine {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.burgerMenuIcon_open .burgerLine:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.burgerMenuIcon_open .burgerLine:nth-child(2) {
+  opacity: 0;
+}
+
+.burgerMenuIcon_open .burgerLine:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}
+
+/* ---------- Sidebar ---------- */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1A1A1A;
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.sidebar_open {
+  transform: translateX(0);
+}
+
+.sidebarContent {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sidebarContentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarLanguage {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.sidebarLanguageOption {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebarLanguageOption:hover {
+  color: #CFD641;
+}
+
+.sidebarLanguageOption_active {
+  color: #CFD641;
+  text-decoration: underline;
+}
+
+.sidebarNav {
+  margin-bottom: 40px;
+}
+
+.sidebarNavList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebarNavLink {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sidebarNavLink:hover {
+  color: #CFD641;
+}
+
+.sidebarContacts {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.sidebarContactItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sidebarIcon {
+  font-size: 24px;
+  color: #CFD641;
+}
+
+.sidebarContactLink {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.sidebarContactLink:hover {
+  color: #CFD641;
+}
+
+.sidebarButton {
+  display: none;
+  background-color: #CFD641;
+  color: #1A1A1A;
+  border: none;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.sidebarButton:hover {
+  background-color: #757b21;
+  color: #fff;
+}
+
+/* ---------- Media Queries ---------- */
+
+@media (max-width: 1430px) {
+  .header_left {
+    gap: 50px;
+  }
+
+  .navList {
+    gap: 40px;
+  }
+
+  .navLink {
+    font-size: 15px;
+  }
+
+  .header_right {
+    gap: 60px;
+  }
+
+  .contacts {
+    gap: 15px;
+  }
+
+  .contactLink {
+    font-size: 14px;
+  }
+
+  .language {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .contactLink.contactIconOnly {
+    font-size: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header_left {
+    gap: 40px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header_right {
+    gap: 40px;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+
+  .sidebar {
+    width: 300px;
+  }
+
+  .sidebarContent {
+    padding: 120px 30px;
+  }
+
+  .contactLink.contactIconOnly {
+    font-size: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_container {
+    padding: 0 24px;
+  }
+
+  .header_left {
+    height: 60px;
+    gap: 18px;
+  }
+
+  .logoImage {
+    margin-right: 10px;
+    width: 23px;
+    height: auto;
+  }
+
+  .logoText {
+    font-size: 11px;
+  }
+
+  .verticalLines {
+    gap: 8px;
+    margin-right: 4px;
+  }
+
+  .verticalLine {
+    width: calc(var(--line-width, 2px) * 0.8);
+  }
+
+  .header_right {
+    gap: 50px;
+  }
+
+  .contacts {
+    gap: 16px;
+  }
+
+  .contactItem {
+    gap: 0;
+  }
+
+  .contactLink.contactIconOnly {
+    font-size: 0;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+
+  .burgerMenuIcon {
+    width: 18px;
+    height: 12px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebarContent {
+    padding: 106px 24px 32px;
+  }
+
+  .sidebarLanguage {
+    margin-bottom: 26px;
+  }
+
+  .sidebarNav {
+    margin-bottom: 69px;
+  }
+
+  .sidebarNavList {
+    gap: 26px;
+  }
+
+  .sidebarNavLink {
+    font-size: 16px;
+  }
+
+  .sidebarContacts {
+    display: flex;
+  }
+
+  .sidebarContactItem {
+    gap: 8px;
+  }
+
+  .sidebarIcon {
+    font-size: 24px;
+  }
+
+  .sidebarContactLink {
+    font-size: 16px;
+  }
+
+  .sidebarButton {
+    display: block;
+  }
+}
