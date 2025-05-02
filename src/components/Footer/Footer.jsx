@@ -5,6 +5,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaTelegram } from "react-icons/fa6";
 import { TbBrandWhatsappFilled } from "react-icons/tb";
 import logo from '../../assets/images/logo_company.svg';
+import logo_name from '../../assets/images/company_name.svg'
 import styles from './Footer.module.css';
 
 function Footer({ scrollToSection }) {
@@ -62,7 +63,7 @@ function Footer({ scrollToSection }) {
           <div className={`${styles.contactItem} ${styles.marker_item}`}>
             <h4 className={styles.contactLabel}>{t('footer.contacts.addressLabel')}</h4>
             <h3 className={styles.contactText}>
-              <FaMapMarkerAlt className={styles.icon} /> {t('footer.contacts.address')}
+              <FaMapMarkerAlt className={styles.icon} /> {t('footer.contacts.address').split(":")[0]} <br/> {t('footer.contacts.address').split(":")[1]}
             </h3>
           </div>
         </div>
@@ -70,7 +71,8 @@ function Footer({ scrollToSection }) {
         <div className={`${styles.column} ${styles.logoColumn}`} onClick={() => scrollToSection('hero')}>
           <div className={styles.logo}>
             <img src={logo} alt="Arbitrum Logo" className={styles.logoImage} />
-            <span className={styles.logoText}>{t('footer.logo')}</span>
+            <img src={logo_name} alt="Logo Name" className={styles.logoText}/>
+            {/* <span className={styles.logoText}>{t('footer.logo')}</span> */}
           </div>
         </div>
       </div>

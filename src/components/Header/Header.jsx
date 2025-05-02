@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../../assets/images/logo_company.svg';
+import logo_name from '../../assets/images/company_name.svg'
 import { BiSolidPhone } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import styles from './Header.module.css';
@@ -38,7 +39,8 @@ function Header({ scrollToSection }) {
         <div className={styles.header_left}>
           <div className={styles.logo} onClick={() => scrollToSection('hero')}>
             <img src={logo} alt="Arbitrum Logo" className={styles.logoImage} />
-            <span className={styles.logoText}>{t('header.logo')}</span>
+            <img src={logo_name} alt="Logo Name" className={styles.logoText}/>
+            {/* <span className={styles.logoText}>{t('header.logo')}</span> */}
           </div>
 
           <div className={styles.verticalLines}>

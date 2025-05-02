@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100vh;
+  height: 100vh; /* Возвращаем фиксированную высоту */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -11,13 +11,16 @@
 }
 
 .heroVideo {
-  position: absolute;
+  position: fixed; /* Используем fixed вместо absolute для предотвращения зума */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  transform: translateZ(0); /* Оптимизация рендеринга */
+  will-change: transform; /* Подсказка для браузера */
+  z-index: -1;
 }
 
 .heroContent {
@@ -52,7 +55,7 @@
   border: none;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -90,6 +93,12 @@
 @media (max-width: 767px) {
   .hero {
     padding-top: 60px;
+    height: 100vh; /* Оставляем фиксированную высоту */
+  }
+
+  .heroVideo {
+    object-fit: cover;
+    transform: translateZ(0); /* Оптимизация рендеринга */
   }
 
   .heroContent {

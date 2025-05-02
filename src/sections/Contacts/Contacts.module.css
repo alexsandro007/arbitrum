@@ -84,6 +84,10 @@
   margin-left: 3px;
 }
 
+.contactAddress {
+  line-height: 21px;
+}
+
 .buttonMapDesktop {
   background-color: #CFD641;
   color: #000;
@@ -91,7 +95,7 @@
   border: none;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   align-self: flex-start;
@@ -113,7 +117,7 @@
   border: none;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
@@ -140,7 +144,7 @@
   border: none;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;

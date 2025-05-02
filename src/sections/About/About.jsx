@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import truckImage from '../../assets/images/truck.avif';
+import company_name from '../../assets/images/about_company_name.svg'
 import styles from './About.module.css';
 
 function About() {
@@ -17,7 +18,8 @@ function About() {
 
           <div className={styles.textWrapper}>
             <div className={styles.companyInfo}>
-               <h3 className={styles.companyName}>{t('about.companyName')}</h3>
+               {/* <h3 className={styles.companyName}>{t('about.companyName')}</h3> */}
+               <img src={company_name} alt="" className={styles.companyName}/>
 
                <p className={styles.description}>{t('about.description').split('</br>')[0]} <br/> <br/> {t('about.description').split('</br>')[1]}</p>
             </div>

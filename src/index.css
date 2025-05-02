@@ -6,3 +6,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+@font-face {
+  font-family: 'MyFont'; /* Имя, которое ты будешь использовать в стилях */
+  src: url('./assets/fonts/HelveticaNeue.ttc') format('truetype'); /* Указываем путь и формат */
+  font-weight: normal; /* Укажи вес, если знаешь (например, 400) */
+  font-style: normal; /* Укажи стиль, если знаешь (normal, italic) */
+}

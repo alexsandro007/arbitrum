@@ -73,7 +73,7 @@ function Contacts({ scrollToSection }) {
               <div className={styles.contactItem}>
                 <h4 className={styles.contactLabel}>{t('contacts.addressLabel')}</h4>
                 <h3 className={styles.contactAddress}>
-                  <FaMapMarkerAlt className={styles.icon} /> {t('contacts.address')}
+                  <FaMapMarkerAlt className={styles.icon} /> {t('contacts.address').split(":")[0]} <br/> {t('contacts.address').split(":")[1]}
                 </h3>
               </div>
 

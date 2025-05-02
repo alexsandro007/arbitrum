@@ -134,8 +134,8 @@ function CalculateCost({ onShowPrivacyPolicy }) {
 
     emailjs
       .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        'service_wzxg769', // Замени на твой Service ID
+        'template_f3pgoxo', // Замени на твой Template ID
         {
           from: formData.from,
           to: formData.to,
@@ -148,7 +148,7 @@ function CalculateCost({ onShowPrivacyPolicy }) {
           notes: formData.notes,
           from_name: formData.name,
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        'Arpr1mnGJvg159k9t' // Замени на твой User ID
       )
       .then(
         (response) => {
