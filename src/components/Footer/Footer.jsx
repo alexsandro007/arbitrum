@@ -63,7 +63,7 @@ function Footer({ scrollToSection }) {
           <div className={`${styles.contactItem} ${styles.marker_item}`}>
             <h4 className={styles.contactLabel}>{t('footer.contacts.addressLabel')}</h4>
             <h3 className={styles.contactText}>
-              <FaMapMarkerAlt className={styles.icon} /> {t('footer.contacts.address').split(":")[0]} <br/> {t('footer.contacts.address').split(":")[1]}
+              <FaMapMarkerAlt className={styles.icon} /> {t('footer.contacts.address')}
             </h3>
           </div>
         </div>

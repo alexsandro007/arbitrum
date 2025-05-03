@@ -10,7 +10,6 @@ function Hero({ scrollToSection }) {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    // Ленивая загрузка видео
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
@@ -30,23 +29,7 @@ function Hero({ scrollToSection }) {
       observer.observe(videoRef.current);
     }
 
-    // Предотвращение зума при скролле на мобильных
-    const handleResize = () => {
-      const video = videoRef.current;
-      if (video) {
-        video.style.width = `${window.innerWidth}px`;
-        video.style.height = `${window.innerHeight}px`;
-      }
-    };
-
-    // Вызываем при монтировании и изменении размера окна
-    window.addEventListener('resize', handleResize);
-    handleResize(); // Вызовем сразу для начальной установки
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('resize', handleResize);
-    };
+    return () => observer.disconnect();
   }, []);
 
   return (

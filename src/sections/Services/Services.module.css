@@ -38,7 +38,7 @@
   border-radius: 6px;
   display: flex;
   text-align: start;
-  padding: 64px 42px;
+  padding: 64px 0 0 38px;
   color: #CFD641;
 }
 
@@ -55,8 +55,8 @@
 
 .itemText {
   position: relative;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 23px;
+  font-weight: 500;
   line-height: 1.1;
 }
 
