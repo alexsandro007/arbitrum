@@ -95,7 +95,7 @@
   border: none;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
   align-self: flex-start;
@@ -117,7 +117,7 @@
   border: none;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
@@ -144,7 +144,7 @@
   border: none;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
@@ -320,5 +320,9 @@
   .icon {
     width: 24px;
     height: 24px;
+  }
+
+  .buttonMapDesktop {
+    font-weight: 500;
   }
 }
