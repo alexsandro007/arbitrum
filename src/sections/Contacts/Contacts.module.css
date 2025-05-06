@@ -56,14 +56,14 @@
 
 .contactLabel {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
   margin-bottom: 4px;
 }
 
 .contactItem h3 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@
 
 .contactItem p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   margin-left: 3px;
 }
@@ -317,12 +317,32 @@
     gap: 32px;
   }
 
+  .contactLabel {
+    font-weight: 600;
+  }
+  
+  .contactItem h3 {
+    font-weight: 500;
+  }
+
   .icon {
     width: 24px;
     height: 24px;
   }
 
+  .contactItem p {
+    font-weight: 500;
+  }
+
   .buttonMapDesktop {
+    font-weight: 500;
+  }
+
+  .buttonMapMobile {
+    font-weight: 500;
+  }
+
+  .buttonRequest {
     font-weight: 500;
   }
 }
