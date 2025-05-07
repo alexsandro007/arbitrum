@@ -1,7 +1,6 @@
 .hero {
   position: relative;
-  min-height: 100dvh;
-  height: auto;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -116,6 +115,11 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    height: 100vh;
+    min-height: 100dvh;
+  }
+
   .heroButton {
     font-weight: 500;
   }

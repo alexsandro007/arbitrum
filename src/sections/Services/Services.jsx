@@ -45,14 +45,15 @@ function Services({ scrollToSection }) {
             {isMobileOrTablet ? (
               <Swiper
                 className={styles.swiperLayout}
-                slidesPerView={1.2}
+                slidesPerView={1.1}
                 spaceBetween={10} 
                 centeredSlides={true} 
                 loop={true}
                 grabCursor={true}
+                lazy={true}
                 breakpoints={{
                   768: {
-                    slidesPerView: 2.2,
+                    slidesPerView: 2,
                     spaceBetween: 12,
                   },
                 }}
