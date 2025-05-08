@@ -116,11 +116,6 @@
 
 @media (max-width: 480px) {
   .hero {
-    height: 90vh;
-    min-height: 100dvh;
-  }
-
-  .heroButton {
-    font-weight: 500;
+    height: 100dvh;
   }
 }

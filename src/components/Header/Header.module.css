@@ -37,9 +37,7 @@
 }
 
 .logoText {
-  /* font-size: 20px; */
   color: #fff;
-  /* letter-spacing: 1px; */
 }
 
 .verticalLines {
@@ -102,24 +100,33 @@
 .contactItem {
   display: flex;
   align-items: center;
-  gap: 8px;
 }
 
-.contactItem .icon {
+.contactLinkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactLinkWrapper:hover .contactLink {
+  color: #CFD641;
+}
+
+.contactLinkWrapper:hover .icon {
+  color: #CFD641;
+}
+
+.icon {
   font-size: 24px;
   color: #CFD641;
 }
 
 .contactLink {
   color: #fff;
-  text-decoration: none;
   font-size: 16px;
   font-weight: 400;
-  transition: color 0.3s ease;
-}
-
-.contactLink:hover {
-  color: #CFD641;
 }
 
 .contactIconOnly {
@@ -392,7 +399,6 @@
   }
 
   .logoText {
-    /* font-size: 11px; */
     width: 63px;
   }
 

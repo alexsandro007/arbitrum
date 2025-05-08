@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../../assets/images/logo_company.svg';
-import logo_name from '../../assets/images/company_name.svg'
+import logo_name from '../../assets/images/company_name.svg';
 import { BiSolidPhone } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import styles from './Header.module.css';
@@ -25,7 +25,7 @@ function Header({ scrollToSection }) {
   };
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen(!isOpen);
   };
 
   const handleNavClick = (section) => {
@@ -40,7 +40,6 @@ function Header({ scrollToSection }) {
           <div className={styles.logo} onClick={() => scrollToSection('hero')}>
             <img src={logo} alt="Arbitrum Logo" className={styles.logoImage} />
             <img src={logo_name} alt="Logo Name" className={styles.logoText}/>
-            {/* <span className={styles.logoText}>{t('header.logo')}</span> */}
           </div>
 
           <div className={styles.verticalLines}>
@@ -84,18 +83,22 @@ function Header({ scrollToSection }) {
         <div className={styles.header_right}>
           <div className={styles.contacts}>
             <div className={styles.contactItem}>
-              <BiSolidPhone className={styles.icon} />
-              <a href="tel:+70711818670" className={`${styles.contactLink} ${styles.contactIconOnly}`}>
-                {t('header.phone')}
+              <a href="tel:+70711818670" className={styles.contactLinkWrapper}>
+                <BiSolidPhone className={styles.icon} />
+                <span className={`${styles.contactLink} ${styles.contactIconOnly}`}>
+                  {t('header.phone')}
+                </span>
               </a>
             </div>
 
             <div className={styles.line}></div>
             
             <div className={styles.contactItem}>
-              <MdEmail className={styles.icon} />
-              <a href="mailto:nikita@arbitrum.com" className={`${styles.contactLink} ${styles.contactIconOnly}`}>
-                {t('header.email')}
+              <a href="mailto:nikita@arbitrum.com" className={styles.contactLinkWrapper}>
+                <MdEmail className={styles.icon} />
+                <span className={`${styles.contactLink} ${styles.contactIconOnly}`}>
+                  {t('header.email')}
+                </span>
               </a>
             </div>
           </div>
