@@ -5,14 +5,14 @@ function PrivacyPolicy({ onBack }) {
   const { t } = useTranslation();
 
   const renderTextWithLinks = (text, key) => {
-    const parts = text.split(/(www\.nettox\.net|info@nettox\.net)/g);
-    
+    const parts = text.split(/(www\.arb1trum\.com|arb1trum@arb1trum\.com)/g);
+  
     return parts.map((part, index) => {
-      if (part === 'www.nettox.net') {
+      if (part === 'www.arb1trum.com') {
         return (
           <a
             key={`${key}-link-${index}`}
-            href="https://www.nettox.net/"
+            href="https://www.arb1trum.com/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
@@ -21,12 +21,12 @@ function PrivacyPolicy({ onBack }) {
           </a>
         );
       }
-      
-      if (part === 'info@nettox.net') {
+  
+      if (part === 'arb1trum@arb1trum.com') {
         return (
           <a
             key={`${key}-link-${index}`}
-            href="mailto:info@nettox.net"
+            href="mailto:arb1trum@arb1trum.com"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}

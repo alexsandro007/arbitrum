@@ -18,7 +18,6 @@ function About() {
 
           <div className={styles.textWrapper}>
             <div className={styles.companyInfo}>
-               {/* <h3 className={styles.companyName}>{t('about.companyName')}</h3> */}
                <img src={company_name} alt="" className={styles.companyName}/>
 
                <p className={styles.description}>{t('about.description').split('</br>')[0]} <br/> <br/> {t('about.description').split('</br>')[1]}</p>

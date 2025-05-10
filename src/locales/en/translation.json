@@ -5,7 +5,7 @@
     "services": "Services",
     "contacts": "Contacts",
     "phone": "+7 071 181-86-70",
-    "email": "nikita@arbitrum.com",
+    "email": "arb1trum@arb1trum.com",
     "requestQuote": "Request a quote"
   },
   "hero": {
@@ -114,7 +114,7 @@
     "phone1": "+7 (771) 161-86-70",
     "phone1Label": "customer service department",
     "emailLabel": "E-mail:",
-    "email": "nikita@arbitrum.com",
+    "email": "arb1trum@arb1trum.com",
     "whatsappLabel": "WhatsApp:",
     "whatsapp": "+7 (771) 161-86-70",
     "telegramLabel": "Telegram:",
@@ -145,7 +145,7 @@
       "phone": "+7 (771) 161-86-70",
       "phone1Label": "customer service department",
       "emailLabel": "E-mail:",
-      "email": "nikita@arbitrum.com",
+      "email": "arb1trum@arb1trum.com",
       "whatsappLabel": "WhatsApp:",
       "whatsapp": "+7 (771) 161-86-70",
       "telegramLabel": "Telegram:",
@@ -159,12 +159,12 @@
     "title": "PERSONAL DATA PROCESSING POLICY",
     "backButton": "Back",
     "section0": {
-      "title": "This Personal Data Processing Policy (hereinafter referred to as the 'Policy') applies to all information that the website located at the domain name www.nettox.net may obtain about the User during the use of the website."
+      "title": "This Personal Data Processing Policy (hereinafter referred to as the 'Policy') applies to all information that the website located at the domain name www.arb1trum.com may obtain about the User during the use of the website."
     },
     "section1": {
       "title": "1. DEFINITION OF TERMS",
       "text1": "1.1. The following terms are used in this Policy:",
-      "text2": "1.1.1. The administration of the website www.nettox.net (hereinafter referred to as the 'Site Administration') – authorized employees responsible for managing the website, acting on behalf of ArbitrumLogistics LLC, who organize and/or carry out the processing of personal data, as well as determine the purposes of personal data processing, the composition of personal data to be processed, and the actions (operations) performed with personal data.",
+      "text2": "1.1.1. The administration of the website www.arb1trum.com (hereinafter referred to as the 'Site Administration') – authorized employees responsible for managing the website, acting on behalf of ArbitrumLogistics LLC, who organize and/or carry out the processing of personal data, as well as determine the purposes of personal data processing, the composition of personal data to be processed, and the actions (operations) performed with personal data.",
       "text3": "1.1.2. 'Personal Data' – any information relating to a directly or indirectly identified or identifiable natural person (data subject).",
       "text4": "1.1.3. 'Processing of Personal Data' – any action (operation) or set of actions (operations) performed with personal data, whether or not by automated means, including collection, recording, systematization, accumulation, storage, updating (modification), retrieval, use, transfer (dissemination, provision, access), anonymization, blocking, deletion, or destruction of personal data.",
       "text5": "1.1.4. 'Confidentiality of Personal Data' – a mandatory requirement for the Operator or any other person who has access to personal data to prevent its dissemination without the consent of the data subject or other legal grounds.",
@@ -182,39 +182,39 @@
     "section3": {
       "title": "3. SUBJECT of the Personal Data Processing Policy",
       "text1": "3.1. This Policy establishes the obligations of the Site Administration regarding the non-disclosure and protection of the confidentiality of personal data that the User provides at the request of the Site Administration when registering on the website.",
-      "text2": "3.2. Personal data permitted for processing under this Policy is provided by the User by filling out the contact form on the website www.nettox.net and includes the following information:",
+      "text2": "3.2. Personal data permitted for processing under this Policy is provided by the User by filling out the contact form on the website www.arb1trum.com and includes the following information:",
       "text3": "3.2.1. Last name, first name of the User;",
       "text4": "3.2.2. User’s contact phone number;",
       "text5": "3.2.3. Email address (e-mail);",
-      "text6": "3.3. www.nettox.net protects data that is automatically transmitted during the viewing of advertising blocks and when visiting pages with installed statistical system scripts ('pixels'):",
+      "text6": "3.3. www.arb1trum.com protects data that is automatically transmitted during the viewing of advertising blocks and when visiting pages with installed statistical system scripts ('pixels'):",
       "text6_1": "IP address;",
       "text6_2": "Information from cookies;",
       "text6_3": "Information about the browser (or other program that accesses the display of advertisements);",
       "text6_4": "Access time;",
       "text6_5": "Address of the page where the advertising block is located;",
       "text6_6": "Referrer (address of the previous page).",
-      "text7": "3.3.1. Disabling cookies may result in the inability to access parts of the website www.nettox.net that require authorization.",
-      "text8": "3.3.2. www.nettox.net collects statistics about the IP addresses of its visitors. This information is used to identify and resolve technical issues.",
+      "text7": "3.3.1. Disabling cookies may result in the inability to access parts of the website www.arb1trum.com that require authorization.",
+      "text8": "3.3.2. www.arb1trum.com collects statistics about the IP addresses of its visitors. This information is used to identify and resolve technical issues.",
       "text9": "3.4. Any other personal information not specified above (browsers used, operating systems, etc.) is subject to secure storage and non-dissemination, except as provided in clauses 5.2. and 5.3. of this Policy."
     },
     "section4": {
       "title": "4. Purposes of Collecting User’s Personal Information",
-      "text1": "4.1. The Site Administration of www.nettox.net may use the User’s personal data for the following purposes:",
-      "text2": "4.1.1. Identification of the User who has filled out the contact form on the website www.nettox.net.",
-      "text3": "4.1.2. Providing the User with access to personalized resources of the website www.nettox.net.",
-      "text4": "4.1.3. Establishing communication with the User, including sending notifications, requests regarding the use of the website www.nettox.net, provision of services, and processing of requests and applications from the User.",
+      "text1": "4.1. The Site Administration of www.arb1trum.com may use the User’s personal data for the following purposes:",
+      "text2": "4.1.1. Identification of the User who has filled out the contact form on the website www.arb1trum.com.",
+      "text3": "4.1.2. Providing the User with access to personalized resources of the website www.arb1trum.com.",
+      "text4": "4.1.3. Establishing communication with the User, including sending notifications, requests regarding the use of the website www.arb1trum.com, provision of services, and processing of requests and applications from the User.",
       "text5": "4.1.4. Determining the User’s location to ensure security and prevent fraud.",
       "text6": "4.1.5. Confirming the accuracy and completeness of the personal data provided by the User.",
-      "text7": "4.1.6. Providing the User with effective customer and technical support in case of issues related to the use of the website www.nettox.net.",
-      "text8": "4.1.7. Providing the User, with their consent, with product updates, special offers, pricing information, newsletters, and other information on behalf of www.nettox.net or its partners.",
+      "text7": "4.1.6. Providing the User with effective customer and technical support in case of issues related to the use of the website www.arb1trum.com.",
+      "text8": "4.1.7. Providing the User, with their consent, with product updates, special offers, pricing information, newsletters, and other information on behalf of www.arb1trum.com or its partners.",
       "text9": "4.1.8. Conducting advertising activities with the User’s consent.",
-      "text10": "4.1.9. Providing the User with access to websites or services of www.nettox.net partners to obtain products, updates, and services.",
+      "text10": "4.1.9. Providing the User with access to websites or services of www.arb1trum.com partners to obtain products, updates, and services.",
       "text11": "4.1.10. Reviewing resumes (applications, letters, etc.) of candidates for vacant positions for the purpose of concluding an employment contract."
     },
     "section5": {
       "title": "5. Methods and Terms of Processing Personal Information",
       "text1": "5.1. The processing of the User’s personal data is carried out without time restrictions, by any lawful means, including in personal data information systems using automation tools or without such tools.",
-      "text2": "5.2. The User agrees that the Site Administration may transfer personal data to third parties, such as courier services, postal organizations, third parties engaged to provide services to the User, and telecommunications operators, solely for the purpose of fulfilling the User’s order placed on the website www.nettox.net.",
+      "text2": "5.2. The User agrees that the Site Administration may transfer personal data to third parties, such as courier services, postal organizations, third parties engaged to provide services to the User, and telecommunications operators, solely for the purpose of fulfilling the User’s order placed on the website www.arb1trum.com.",
       "text3": "5.3. The User’s personal data may be transferred to authorized state authorities of the Republic of Belarus only on the grounds and in the manner established by the legislation of the Republic of Belarus.",
       "text4": "5.4. In case of loss or disclosure of personal data, the Site Administration informs the User about the loss or disclosure of personal data.",
       "text5": "5.5. The Site Administration takes necessary organizational and technical measures to protect the User’s personal information from unauthorized or accidental access, destruction, alteration, blocking, copying, distribution, as well as from other unlawful actions by third parties.",
@@ -224,7 +224,7 @@
       "title": "6. COOKIE PROCESSING POLICY",
       "text1": "6.1. The purpose of processing cookies is to ensure the convenience of website Users and improve the quality of its functionality.",
       "text2": "6.2. The Site Administration does not transfer cookies to third parties or use them to identify personal data subjects.",
-      "text3": "6.3. The following types of cookies are processed on the website www.nettox.net:",
+      "text3": "6.3. The following types of cookies are processed on the website www.arb1trum.com:",
       "text4": "6.3.1. Functional – allow the User to navigate the website and fully utilize its features;",
       "text5": "6.3.2. Analytical – necessary for statistical purposes, helping to improve the website’s performance and make it more user-friendly.",
       "text6": "6.4. Users can accept or reject the collection of all or some cookies. However, the proper functioning of the website is only possible if functional cookies are used."
@@ -232,7 +232,7 @@
     "section7": {
       "title": "7. OBLIGATIONS OF THE PARTIES",
       "text1": "7.1. The User is obliged to:",
-      "text2": "7.1.1. Provide information about personal data necessary to use the website www.nettox.net.",
+      "text2": "7.1.1. Provide information about personal data necessary to use the website www.arb1trum.com.",
       "text3": "7.1.2. Update or supplement the provided information about personal data if this information changes.",
       "text4": "7.2. The Site Administration is obliged to:",
       "text5": "7.2.1. Use the obtained information solely for the purposes specified in clause 4 of this Policy.",
@@ -250,7 +250,7 @@
     },
     "section9": {
       "title": "9. DISPUTE RESOLUTION",
-      "text1": "9.1. Before filing a lawsuit regarding disputes arising from the relationship between the User of the website www.nettox.net and the Site Administration, it is mandatory to submit a claim (a written proposal for voluntary dispute resolution).",
+      "text1": "9.1. Before filing a lawsuit regarding disputes arising from the relationship between the User of the website www.arb1trum.com and the Site Administration, it is mandatory to submit a claim (a written proposal for voluntary dispute resolution).",
       "text2": "9.2. The recipient of the claim, within 30 calendar days from the date of receipt of the claim, shall notify the claimant in writing of the results of the claim’s consideration.",
       "text3": "9.3. If an agreement is not reached, the dispute will be referred to a judicial body in accordance with the current legislation of the Republic of Belarus.",
       "text4": "9.4. The current legislation of the Republic of Belarus applies to this Policy and the relationship between the User and the Site Administration."
@@ -258,9 +258,9 @@
     "section10": {
       "title": "10. ADDITIONAL CONDITIONS",
       "text1": "10.1. The Site Administration has the right to make changes to this Policy without the User’s consent.",
-      "text2": "10.2. The new Privacy Policy takes effect from the moment it is posted on the website www.nettox.net, unless otherwise provided by the new version of the Policy.",
-      "text3": "10.3. All suggestions or questions regarding this Policy should be directed to the email address info@nettox.net.",
-      "text4": "10.4. The current Policy is posted on the page at www.nettox.net."
+      "text2": "10.2. The new Privacy Policy takes effect from the moment it is posted on the website www.arb1trum.com, unless otherwise provided by the new version of the Policy.",
+      "text3": "10.3. All suggestions or questions regarding this Policy should be directed to the email address arb1trum@arb1trum.com",
+      "text4": "10.4. The current Policy is posted on the page at www.arb1trum.com."
     }
   }
 }

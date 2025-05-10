@@ -72,7 +72,6 @@ function Footer({ scrollToSection }) {
           <div className={styles.logo}>
             <img src={logo} alt="Arbitrum Logo" className={styles.logoImage} />
             <img src={logo_name} alt="Logo Name" className={styles.logoText}/>
-            {/* <span className={styles.logoText}>{t('footer.logo')}</span> */}
           </div>
         </div>
       </div>

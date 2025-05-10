@@ -134,8 +134,8 @@ function CalculateCost({ onShowPrivacyPolicy }) {
 
     emailjs
       .send(
-        'service_wzxg769', // Замени на твой Service ID
-        'template_f3pgoxo', // Замени на твой Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from: formData.from,
           to: formData.to,
@@ -148,12 +148,12 @@ function CalculateCost({ onShowPrivacyPolicy }) {
           notes: formData.notes,
           from_name: formData.name,
         },
-        'Arpr1mnGJvg159k9t' // Замени на твой User ID
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
-          alert('Form submitted successfully! Check your email.');
+          alert('Form submitted successfully!');
           setFormData({
             from: '',
             to: '',

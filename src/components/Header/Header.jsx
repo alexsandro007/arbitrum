@@ -94,7 +94,7 @@ function Header({ scrollToSection }) {
             <div className={styles.line}></div>
             
             <div className={styles.contactItem}>
-              <a href="mailto:nikita@arbitrum.com" className={styles.contactLinkWrapper}>
+              <a href="mailto:arb1trum@arb1trum.com" className={styles.contactLinkWrapper}>
                 <MdEmail className={styles.icon} />
                 <span className={`${styles.contactLink} ${styles.contactIconOnly}`}>
                   {t('header.email')}
@@ -178,7 +178,7 @@ function Header({ scrollToSection }) {
               </div>
               <div className={styles.sidebarContactItem}>
                 <MdEmail className={styles.sidebarIcon} />
-                <a href="mailto:nikita@arbitrum.com" className={styles.sidebarContactLink}>{t('header.email')}</a>
+                <a href="mailto:arb1trum@arb1trum.com" className={styles.sidebarContactLink}>{t('header.email')}</a>
               </div>
             </div>
           </div>
